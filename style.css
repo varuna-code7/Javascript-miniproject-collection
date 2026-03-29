@@ -1,0 +1,54 @@
+
+.dark-bg {
+    background-color: black;
+}
+
+.bulb-image {
+    width: 150px;
+}
+
+.cat-image {
+    width: 300px;
+}
+
+.switch-card {
+    background-color: grey;
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.off-button {
+    color: #ffffff;
+    background-color: #e12d39;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    width: 99px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.on-button {
+    color: #ffffff;
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    width: 99px;
+    height: 44px;
+    border-radius: 8px;
+    margin-left: 16px;
+}

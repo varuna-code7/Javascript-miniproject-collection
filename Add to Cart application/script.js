@@ -10,11 +10,14 @@ let value = function() {
     if (inputEle.value=== "") {
         return;
     }
+     
+
     list.textContent = inputEle.value;
     ulEl.appendChild(list);
+    
     inputEle.value = "";
 };
-/*let delValue = function() {
+/*let delValue = function() {  this method dele the full list.
     //if (ulEl.lastChild) {
         ulEl.removeChild(ulEl.lastChild);
     }

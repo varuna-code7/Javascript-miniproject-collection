@@ -16,7 +16,6 @@ A simple and interactive web application that generates a random background colo
 ## 🛠️ Tech Stack
 
 * **HTML**
-* **CSS**
 * **JavaScript**
 * **Bootstrap 4**
 

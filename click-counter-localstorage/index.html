@@ -10,24 +10,12 @@
 </head>
 
 <body>
-    <div class="text-center">
-        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" class="image" />
-        <div class="bg-container pt-5 pb-5">
-            <span class="number m-2" id="firstNumber"></span>
-            <span class="operator m-1">+</span>
-            <span class="number m-2" id="secondNumber"></span>
-            <span class="operator m-1">=</span>
-            <input class="user-input" type="text" id="userInput" />
-            <div class="mt-4 mb-4">
-                <button id="checkButton" class="btn btn-primary mr-3">
-                    Check
-                </button>
-                <button id="restartButton" class="btn btn-primary">
-                    Restart
-                </button>
-            </div>
-            <p class="game-result" id="gameResult"></p>
-        </div>
+    <div class="bg-container d-flex flex-column justify-content-center text-center" id="clickCounterContainer">
+        <h1 class="heading">The Button Has Been Clicked <span id="counterValue" class="count">0</span> Times</h1>
+        <p class="para">Click The Button To Incease The Count!</p>
+        <button class=" b" id="incrementBtn">Click Me!</button>
+        <button class=" b mt-5" id="resetBtn">Reset Me!</button>
+
     </div>
     <script src="script.js"></script>
 </body>
